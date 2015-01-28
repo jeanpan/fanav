@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font Awesome Icon Menu.</title>
+    <link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <a href=""><i class="fa fa-ship active" data-text="ship"></i></a>
+        <a href=""><i class="fa fa-birthday-cake" data-text="cake"></i></a>
+        <a href=""><i class="fa fa-leaf" data-text="leaf"></i></a>
+        <a href=""><i class="fa fa-camera-retro" data-text="camera"></i></a>
+    </div>
+
+</body>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/icon-menu.js"></script>
+<script>
+$(function() {
+    $('.nav').fanav();
+});
+</script>
+</html>
