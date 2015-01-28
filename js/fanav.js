@@ -1,9 +1,14 @@
+/* simple jquery plugin for font-awesome icon navigation */
 ;(function($) {
     'use strict';
 
     $.fn.fanav = function(settings) {
 
-        var _handler = function() {
+        var _defaultSettings = {
+                speed: 'slow'
+            },
+            _settings = $.extend(_defaultSettings, settings),
+            _handler = function() {
                 var nav = this,
                     $fa = $('.fa', nav);
 
@@ -13,9 +18,9 @@
                 });
 
                 $fa.hover(function() {
-                    $(this).find('span').stop().slideDown('slow');
+                    $(this).find('span').stop().slideDown(_settings.speed);
                 }, function() {
-                    $(this).find('span').stop().slideUp('slow');
+                    $(this).find('span').stop().slideUp(_settings.speed);
                 });
             };
 
