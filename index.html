@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="css/fanav.css">
 </head>
 <body>
+    <div class="container">
+        <h1>FaNAV</h1>
+        <p>FaNAV is a navigation bar composed by font-awesome icon.</p>
 
-    <div class="nav">
-        <a href=""><i class="fa fa-ship active" data-text="ship"></i></a>
-        <a href=""><i class="fa fa-birthday-cake" data-text="cake"></i></a>
-        <a href=""><i class="fa fa-leaf" data-text="leaf"></i></a>
-        <a href=""><i class="fa fa-camera-retro" data-text="camera"></i></a>
+        <div class="nav">
+            <div class="fanav">
+                <a href=""><i class="fa fa-ship active" data-text="ship"></i></a>
+                <a href=""><i class="fa fa-birthday-cake" data-text="cake"></i></a>
+                <a href=""><i class="fa fa-leaf" data-text="leaf"></i></a>
+                <a href=""><i class="fa fa-camera-retro" data-text="camera"></i></a>
+            </div>
+        </div>
     </div>
 
 </body>
 <script src="js/jquery-1.11.2.js"></script>
-<script src="js/icon-menu.js"></script>
+<script src="js/fanav.js"></script>
 <script>
 $(function() {
     $('.nav').fanav();

@@ -13,7 +13,7 @@ FaNAV is a navigation bar composed by font-awesome icon.
 * incldue jQuery lib and fanav.js.
 ```html
 <script src="js/jquery-1.11.2.js"></script>
-<script src="js/icon-menu.js"></script>
+<script src="js/fanavjs"></script>
 ```
 
 * run fanav

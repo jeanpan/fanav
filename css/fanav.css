@@ -1,4 +1,8 @@
 /* -- fa nav -- */
+.fanav {
+    text-align: center;
+}
+
 .fa {
     position: relative;
     color: #333;
