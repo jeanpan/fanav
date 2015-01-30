@@ -2,7 +2,10 @@
 
 FaNAV is a navigation bar composed by font-awesome icon.
 
+![](https://raw.githubusercontent.com/jeanpan/fanav/master/image/demo.png)
+
 ### How to use FaNAV
+
 
 * include font-awesome and fanav.css. 
 ```html
